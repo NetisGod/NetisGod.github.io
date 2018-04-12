@@ -1,0 +1,543 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-size: 1vw;
+}
+
+body {
+
+    background-color: hsl(0, 0%, 80%);
+    font-family: 'PF DinDisplay', 'Trebuchet MS';
+}
+
+#top {
+    z-index: 200;
+    display: flex;
+    margin: auto auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 84rem;
+    height: 3.5rem;
+
+}
+
+.top_left {
+    z-index: 99;
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+
+    background-color: hsla(0, 0%, 0%, 0.85);
+
+}
+
+.top_right {
+    z-index: 99;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: row wrap;
+
+    background-color: hsla(0, 0%, 0%, 0.85);
+
+}
+
+.top_text_left {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 100%);
+    padding-left: 2rem;
+}
+
+.film_go {
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.9rem;
+    color: hsl(0, 0%, 100%);
+    margin-left: 4rem;
+    margin-right: 1rem;
+}
+
+.film_go:hover {
+    color: hsl(198, 88%, 57%);
+}
+
+.films {
+    color: hsl(198, 88%, 57%);
+}
+
+.tv:hover {
+    color: hsl(124, 53%, 44%);
+}
+
+.premiere:hover {
+    color: hsl(360, 100%, 53%);
+}
+
+.top_text_right {
+
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 100%);
+    padding-right: 2rem;
+
+}
+
+.registration {
+    margin-right: 3rem;
+}
+
+.top_text_right:hover {
+    color: hsl(198, 88%, 57%);
+}
+
+/*-------------------------------------------------*/
+
+#block1 {
+    margin: auto auto;
+    width: 84rem;
+    height: 3.5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#header {
+
+    display: flex;
+    margin: auto auto;
+
+    flex-flow: wrap row;
+    width: 84rem;
+    height: 11rem;
+    /*background-color: hsl(0, 0%, 100%);*/
+    background-color: red;
+
+}
+
+#header1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1rem;
+    width: 100%;
+    height: 60%;
+    background-color: hsl(0, 0%, 95%);
+
+    padding-left: 3rem;
+}
+
+.like_films {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+#header2 {
+    display: flex;
+    flex-flow: wrap row;
+
+    width: 100%;
+    height: 40%;
+    /*background-color: hsl(0, 0%, 100%);*/
+    background-color: aqua;
+
+}
+
+.class_films {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0rem;
+    padding-left: 3rem;
+    width: 65%;
+    height: 100%;
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+.class_films_1 {
+
+    cursor: pointer;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.class_films_1:hover {
+    color: hsl(198, 88%, 57%);
+}
+
+.year_films_0 {
+
+}
+
+.year_films {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 35%;
+    height: 100%;
+    /*background-color: hsl(0, 0%, 95%);*/
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+.class_films_2 {
+    box-sizing: border-box;
+
+    display: block;
+    cursor: pointer;
+
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 60%);
+    font-weight: 500;
+
+
+}
+
+.class_films_2:hover {
+    color: hsl(198, 88%, 57%);
+}
+
+i.fa-chevron-down {
+    font-size: 0.9rem;
+    margin-left: 0.2rem;
+}
+
+.class_films_3_1, .class_films_3_2, .class_films_3_3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color:hsl(0, 0%, 95%);
+    /*background-color: red;*/
+
+}
+
+.class_films_3_2 {
+    background-color:hsl(0, 0%, 95%);
+    /*background-color: orangered;*/
+}
+
+.class_films_3_3 {
+    margin-right: 3rem;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 95%);
+    /*background-color: blue;*/
+
+}
+
+
+/*----------------*/
+
+/*-------------*/
+.line {
+    margin: auto auto;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 84rem;
+    height: 2rem;
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+.line_grey {
+    margin-top: 0.5%;
+    width: 98%;
+    height: 5%;
+    background-color: hsl(0, 0%, 80%);
+}
+
+#genre_1 {
+
+
+}
+
+.genre_2 {
+
+    z-index: 98;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-around;
+    align-items: flex-start;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 44rem;
+    height: 0;
+    background-color: hsl(0, 0%, 100%);
+    top: 14.5rem;
+    left: 32.7rem;
+    box-shadow:inset 0 0 0 0.1rem hsl(0, 0%, 80%);
+}
+.genre_list{
+
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.genre_list_p{
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 0.8rem;
+    color: hsl(0, 0%, 0%);
+}
+.genre_list_p:hover{
+    color: hsl(198, 88%, 57%);
+
+}
+
+
+#genre:checked ~ .genre_2{
+    height: 20rem;
+
+}
+
+/*#genre:checked ~ .class_films_3_1 {*/
+    /*background-color: green;*/
+/*}*/
+
+
+#year_1 {
+
+}
+
+.year_2 {
+    z-index: 99;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-around;
+    align-items: flex-start;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 12rem;
+    height: 0;
+    background-color: hsl(0, 0%, 100%);
+    top: 14.5rem;
+    left: 70.55rem;
+    box-shadow:inset 0 0 0 0.1rem hsl(0, 0%, 80%);
+
+
+
+}
+
+#year:checked ~ .year_2 {
+
+    height: 23rem;
+
+}
+
+#country_1 {
+
+}
+
+.country_2 {
+    z-index: 100;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-around;
+    align-items: flex-start;
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 60rem;
+    height: 0;
+    background-color: hsl(0, 0%, 100%);
+    top: 14.5rem;
+    left: 28.35rem;
+    box-shadow:inset 0 0 0 0.1rem hsl(0, 0%, 80%);
+
+}
+
+#country:checked ~ .country_2 {
+
+    height: 25rem;
+
+}
+
+/*-----------------------------*/
+#container {
+    width: 84rem;
+    height: 100rem;
+    margin: auto auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: hsl(0, 0%, 95%);
+
+}
+
+.film {
+    display: flex;
+    flex-flow: row wrap;
+    width: 19rem;
+    height: 32.4rem;
+    background-color: red;
+
+}
+
+.image {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+    background-color: blue;
+    justify-content: center;
+    align-items: flex-start;
+    /*
+    filter:blur(2px);
+    transition-duration: 1s;
+    */
+}
+
+/*
+.image:hover{
+    filter:blur(0);
+    transition-duration: 1s;
+}
+*/
+
+/*Название вильмов*/
+.name {
+
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10%;
+
+    font-size: 1.3rem;
+    padding-top: 0.7rem;
+    padding-left: 0.3rem;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 20%);
+    font-weight: bold;
+}
+
+/*Поинтер для назв фильмов*/
+.name1 {
+    cursor: pointer;
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+}
+
+/*вспливающа менюха*/
+input[type="checkbox"] {
+
+    display: none;
+}
+
+/*кнопка*/
+
+.label_1 {
+    cursor: pointer;
+    z-index: 95;
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: hsla(0, 0%, 0%, 0.4);
+    transition: 1s;
+}
+
+.label_1:hover {
+    background-color: hsla(0, 0%, 0%, 0.85);
+    transition: 1s;
+}
+
+i.fa-align-justify {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+    font-size: 2rem;
+    color: hsl(198, 88%, 57%);
+}
+
+/*выпадающий фон инфо*/
+.more {
+    z-index: 90;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background-color: hsla(0, 0%, 0%, 0.85);
+    overflow: hidden;
+    transition: 1s;
+    font-size: 1.1rem;
+
+}
+
+/*отступы для инфо*/
+.hd, .kp, .imd, .info {
+    padding-top: 1rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+}
+
+input[type="checkbox"]:checked ~ .more {
+
+    height: 100%;
+    transition: 1s;
+}
+
+/*качество*/
+.hd {
+    margin-top: 15%;
+    color: hsl(198, 88%, 57%);
+}
+
+/*рейтинг*/
+.kp {
+    color: hsl(30, 100%, 48%);
+}
+
+/*рейтинг*/
+.imd {
+    padding-top: 0;
+    color: hsl(53, 100%, 41%);
+}
+
+/*краткое содержание*/
+.info {
+    color: hsl(0, 0%, 95%);
+}
+
+/*Рейтинг*/
+i.fa-star {
+
+    color: hsl(53, 100%, 41%);
+
+}
