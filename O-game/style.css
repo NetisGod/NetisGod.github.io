@@ -1,0 +1,32 @@
+body{
+	background: url('http://365psd.ru/images/backgrounds/bg-light-4867.png') grey;
+}
+
+.container{
+	margin:  50px;
+}
+
+#output{
+	border: 3px solid #3939ef6b;
+	border-radius: 5px;
+	display: block;
+	width: 405px;
+}
+
+#add-element{
+	border-radius: 	4px;
+	display: inline;
+	margin: 20px;
+	margin-left: 180px;
+	padding: 5px 10px;
+	background-color: #3939ef6b;
+}
+
+#title{
+  position: relative;
+  left: 200px;
+}
+
+section{
+  padding-left: 50px;
+}
