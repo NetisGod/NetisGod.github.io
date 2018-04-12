@@ -1,0 +1,70 @@
+/*Таймер*/
+html{
+
+}
+
+/*розташування*/
+.countbox {
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    height: 100%;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+ .countbox-mins1, .countbox-secs1, .countbox-mins2, .countbox-secs2 {
+    font-size: 2rem;
+    background-image: url(../icon/box1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+     background-size: 2.7rem;
+    float: left;
+    width: 2.7rem;
+    height: 2.7rem;
+    //line-height: 5px;
+    margin-left: 0.5rem;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .countbox {
+        color: black;
+        font-size: 1.2rem;
+        font-weight: 500;
+        height: 100%;
+        padding-top: 1rem;
+        padding-left: 0.1rem;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .countbox-mins1, .countbox-secs1, .countbox-mins2, .countbox-secs2 {
+        font-size: 1.2rem;
+        background-image: url(../icon/box1.png);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 1.7rem;
+        float: left;
+        width: 1.7rem;
+        height: 1.7rem;
+    //line-height: 5px;
+        margin-left: 0.1rem;
+        text-align: center;
+        z-index: 1;
+    }
+}
